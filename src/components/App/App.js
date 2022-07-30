@@ -10,12 +10,8 @@ function App() {
       <h1>Application</h1>
       <BrowserRouter>
         <Routes>
-          <Route path="/dashboard">
-            <Dashboard />
-          </Route>
-          <Route path="/preferences">
-            <Preferences />
-          </Route>
+          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/preferences" element={<Preferences/>} />
         </Routes>
       </BrowserRouter>
     </div>
